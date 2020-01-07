@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object.assign</title>
+</head>
+
+<body>
+  <!-- Object.assign学习 参考阮一峰大牛 《ECMAScript 6 入门》 -->
+  <script>
+    // 基本使用：对象合并，将源对象(source)的可枚举属性复制到目标对象(target)
+    // 源对象中存在同名属性，后面的覆盖前面
+    const target = {
+      a: 1
+    };
+    const source1 = {
+      b: 1
+    };
+    const source2 = {
+      b: 3
+    }
+    Object.assign(target, source1, source2)
+    console.log(target) // {a: 1, b: 3}
+
+    // 如果Objec.assign仅传入一个参数
+    //     1. 参数是对象，返回该对象
+    //     2. 参数不是对象，转成对象，返回
+    //        2.1 无法转化成对象，例如undefined、null，报错
+    const obj = {
+      x: 1
+    }
+    console.log(Object.assign(obj) === obj) // true 
+    /** 
+     * 当前是否可猜测Object.assign为浅拷贝？？？
+     * **/
+    console.log(Object.assign(2)); // Number {2} 包装类
+    try {
+      Object.assign(undefined);
+    } catch (e) {
+      console.log(e); // TypeError: Cannot convert undefined or null to object
+    }
+
+    // 如果非对象参数出现在源对象位置，无法转化成对象则会跳过
+    //    1. undefined、null在除target位置并非会报错
+    //    2. Object.assign只能拷贝自身属性，不能合并不可枚举的属性、继承属性
+    const test = {
+      x: 1
+    }
+    const value = 123;
+    const str = 'abc';
+    const bool = true;
+    const no = undefined;
+    console.log(Object.assign(test, no) === test); // true
+    console.log(Object.assign(test, value, str, bool)) // {0: "a", 1: "b", 2: "c", x: 1}
+
+    // Object可以拷贝属性名为Symbol的属性
+  </script>
+</body>
+
+</html>

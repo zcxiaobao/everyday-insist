@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object.assign 注意</title>
+</head>
+
+<body>
+  <script>
+    // 注意点1： Object.assign为浅拷贝(但是是否利用其可以实现深拷贝？？？)
+    const obj1 = {
+      a: {
+        b: 1
+      }
+    }
+    const obj2 = Object.assign({}, obj1);
+    obj2.a.b = 2;
+    console.log(obj1.a.b) // 2
+    // 注意点2：对于嵌套对象，并且为同名属性，Object.assign默认为替换，而不是添加
+    const obj3 = {
+      a: {
+        b: 'c',
+        c: 'd'
+      }
+    }
+    const obj4 = {
+      a: {
+        b: 5
+      }
+    }
+    console.log(Object.assign(obj3, obj4)) // {a: {b: 5}}
+
+    // 注意点3：可以用来处理数组，将数组看作 {0: val1, 1: val2}
+    //         那字符串会怎样？ 猜测应该失败，string类型为原始值
+    console.log(Object.assign([1, 2, 3], [4, 5])); // [4,5,3]
+    // console.log(Object.assign('abc', 'efg')); 报错
+  </script>
+</body>
+
+</html>
