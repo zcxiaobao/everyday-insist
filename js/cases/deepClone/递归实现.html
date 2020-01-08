@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>递归实现</title>
+</head>
+
+<body>
+  <script>
+    function es5IsArray(obj) {
+      const isArrayStr = "[object Array]";
+      return Object.prototype.toString.call(obj) === isArrayStr;
+    }
+
+    function deepClone(source) {
+      let target;
+      if (!source || typeof (source) !== 'object') {
+        return target;
+      }
+      target = es5IsArray(source) ? [] : {}; // 或者使用Array.isArray
+      for (let key in source) {
+        if (typeof (source[key]) !== 'object') {
+          target[key] = source[key];
+        } else {
+          target[key] = deepClone(source[key])
+        }
+      }
+      return target;
+    }
+
+    let source = {
+      b: [0, {
+        c: '1'
+      }],
+      d: {
+        e: '2'
+      }
+    }
+    const target = deepClone(source);
+    target.b[0] = 100;
+    target.d.e = '3';
+    console.log(target, source)
+  </script>
+
+</body>
+
+</html>
