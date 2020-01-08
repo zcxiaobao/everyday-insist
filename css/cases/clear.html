@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>clear测试</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .father {
+      border: 1px solid #f00;
+      font-size: 0;
+    }
+
+    .son {
+      width: 100px;
+      height: 100px;
+      color: #fff;
+      float: left;
+      background-color: #000;
+      margin-right: 10px;
+    }
+
+    .clearfix {
+      *zoom: 1;
+    }
+
+    .clearfix::after {
+      content: '';
+      /* True */
+      /* display: block; */
+      /* display: flex; */
+      /* display: table; */
+
+      /* False */
+      /* display: inline-block; */
+      /* display: inline; */
+      /* display: none; */
+
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="father clearfix">
+    <div class="son">1</div>
+    <div class="son">2</div>
+  </div>
+</body>
+
+</html>
