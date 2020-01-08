@@ -1,7 +1,7 @@
 1. Object.assign 是浅拷贝还是深拷贝？实现深拷贝的方法有哪些？ (2020.01.07)
    > 分析：首先这是两个问题，Object 作为 ES6 新提供的 API，对此了解仅限于合并对象，对象同名属性覆盖，暂无法得出其内部机制为浅拷贝还是深拷贝。
 
-- Object.assign 学习(具体可以参考 js/case/assign)
+- Object.assign 学习(具体可以参考 `js/case/assign`)
   - 基本使用：
     1. 对象合并，将源对象(source)的可枚举属性复制到目标对象(target)
     2. 源对象中存在同名属性，后面的覆盖前面
@@ -23,7 +23,7 @@
 ```js
 // Object.assign 只能深拷贝原始属性
 
-// 递归的方式 deepClone 具体参考js/case/deepClone
+// 递归的方式 deepClone 具体参考 js/case/deepClone
 function es5IsArray(obj) {
   // Es5 区分对象与数组的一种方法
   const isArrayStr = "[object Array]";

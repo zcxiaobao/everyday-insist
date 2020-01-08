@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>toCamel</title>
+</head>
+
+<body>
+  <script>
+    const str = '_a_b_c_d';
+    const reg = /_(\w)/g;
+
+    // 初版
+    // function toCamel(str) {
+    //   if (typeof (str) !== 'string') {
+    //     throw Error('传入的值类型不是字符串!!!');
+    //   }
+    //   const camelStr = str.replace(reg, ($, $1) => {
+    //     return $1.toUpperCase();
+    //   })
+    //   return camelStr;
+    // }
+
+    // 倔强版
+    // function toCamel(str, isBig = false) {
+    //   if (typeof str !== "string") {
+    //     throw Error("传入的值类型不是字符串!!!");
+    //   }
+    //   let camelStr = str.replace(reg, ($, $1) => {
+    //     return $1.toUpperCase();
+    //   });
+
+    //   camelStr =
+    //     (isBig ?
+    //       camelStr.slice(0, 1).toUpperCase() :
+    //       camelStr.slice(0, 1).toLowerCase()) + camelStr.slice(1);
+    //   return camelStr;
+    // }
+
+    // 顽固版
+    // function toCamel(str) {
+    //   // 大驼峰 写完突然发现还不如第一种方案，哈哈哈
+    //   if (typeof str !== "string") {
+    //     throw Error("传入的值类型不是字符串!!!");
+    //   }
+    //   let camelStr = str.replace(/(\b|_)([A-Za-z])/, ($, $1, $2) =>
+    //     $2.toUpperCase()
+    //   );
+    //   camelStr = camelStr.replace(
+    //     /(\w)_(\w)/g,
+    //     ($, $1, $2) => $1 + $2.toUpperCase()
+    //   );
+    //   return camelStr;
+    // }
+    // console.log(toCamel('_a_b_cd')); // AB_cd
+    // console.log(toCamel('_a_b_cd_ef')); // AB_cdEf
+
+    // 牛角钻破版
+    function toCamel(str) {
+      // 小驼峰
+      if (typeof str !== "string") {
+        throw Error("传入的值类型不是字符串!!!");
+      }
+      let camelStr = str.replace(/(\b|_)([A-Za-z])/, ($, $1, $2) =>
+        $2.toLowerCase()
+      );
+      camelStr = camelStr.replace(/_(\w)/g, ($, $1) => {
+        return $1.toUpperCase();
+      });
+      return camelStr;
+    }
+    console.log(toCamel('_a_b_cd')); // aBCd
+    console.log(toCamel('_a_b_cd_ef')); // aBCdEf
+  </script>
+</body>
+
+</html>
