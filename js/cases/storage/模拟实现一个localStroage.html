@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>模拟实现一个localStorage</title>
+</head>
+
+<body>
+  <script>
+    // 终版
+    class Cookie {
+      constructor() {}
+      static getCookies() {
+        return document.cookie.match(/([^;=]+)=([^;]+)/g) || [];
+      }
+      static setCookie(key, value, isExpired = 1) {
+        var Days = 30;
+        var exp = new Date();
+        exp.setTime(exp.getTime() + Days * isExpired * 24 * 60 * 60 * 1000);
+        document.cookie = key + "=" + encodeURIComponent(value) + ";expires=" + exp.toGMTString();
+      }
+    }
+
+    const myLocalStorage2 = (function () {
+      function toStr(val) {
+        return typeof val === 'object' && !val || typeof val === 'undefined' ? val + "" : val.toString();
+      }
+
+      function getItem(key) {
+        const cookieList = Cookie.getCookies();
+        key = toStr(key);
+        for (let i = 0; i < cookieList.length; i++) {
+          var param = cookieList[i].match(/^\s*([^=]+)=(.+)/);
+          if (param[1] === String(key)) {
+            return decodeURIComponent(param[2]);
+          }
+        }
+        return null;
+      }
+
+      function setItem(key, value) {
+        Cookie.setCookie(key, value);
+      }
+
+      function removeItem(key) {
+        Cookie.setCookie(key, "", -1)
+      }
+      return {
+        getItem,
+        setItem,
+        removeItem
+      }
+    }())
+
+    // 初版
+    // const myLocalStorage = (function () {
+    //   const storage = {};
+
+    //   function toStr(val) {
+    //     return typeof val === 'object' && !val || typeof val === 'undefined' ? val + "" : val.toString();
+    //   }
+    //   return {
+    //     setItem(key, val) {
+    //       val = toStr(val);
+    //       key = toStr(key);
+    //       storage[key] = val;
+    //     },
+    //     getItem(key) {
+    //       key = toStr(key);
+    //       return storage[key];
+    //     },
+    //     clear() {
+    //       storage = {};
+    //     }
+    //   }
+    // }())
+
+
+    Object.defineProperty(window, 'myStorage', {
+      value: myLocalStorage2
+    })
+    myStorage.setItem(undefined, undefined);
+    myStorage.setItem(null, null);
+    myStorage.setItem({}, 13);
+    console.log(myStorage, myStorage.getItem({}));
+  </script>
+</body>
+
+</html>
