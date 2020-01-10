@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Promise执行顺序</title>
+</head>
+
+<body>
+  <script>
+    console.log(1);
+    setTimeout(() => {
+      console.log(2);
+    }, 0);
+    const promise = new Promise((resolve, reject) => {
+      console.log(3);
+      resolve();
+      console.log(4);
+    });
+    promise.then(() => {
+      console.log(5);
+    });
+    console.log(6);
+  </script>
+</body>
+
+</html>
