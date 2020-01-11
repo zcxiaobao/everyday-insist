@@ -18,3 +18,9 @@
 4. `2020-01-10`
 
 - [请分析如下 promise 执行的结果并解释原因](./js/请分析如下promise执行的结果并解释原因.md) <kbd>js</kbd>
+
+5. `2020-01-11`
+
+- [什么是 FOUC？你是如何避免 FOUC 的？](<./css/什么是FOUC？你是如何避免FOUC的？(2020.01.11).md>) <kbd>css</kbd>
+  1. `style`标签写在`body`前和`body`后的区别是什么？
+  2. `css` 中`@import` 和 `link` 的区别
