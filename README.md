@@ -24,3 +24,10 @@
 - [什么是 FOUC？你是如何避免 FOUC 的？](<./css/什么是FOUC？你是如何避免FOUC的？(2020.01.11).md>) <kbd>css</kbd>
   1. `style`标签写在`body`前和`body`后的区别是什么？
   2. `css` 中`@import` 和 `link` 的区别
+
+6. `2020-01-12`
+
+- typeof 系列题目
+  1. [typeof('abc')和 typeof 'abc'都是 string, 那么 typeof 是操作符还是函数？](<./js/typeof('abc')和typeof'abc'都是string，那么typeof是操作符还是函数？(2020.01.12).md>)
+  2. [请解释下 NaN 表示什么呢？typeof NaN 结果是什么？](<./js/请解释下NaN表示什么呢？typeof(NaN)结果是什么？.md>)
+  3. [实现一个类型判断函数，需要鉴别出基本类型、function、null、NaN、数组、对象？](<./js/实现一个类型判断函数，需要鉴别出基本类型、function、null、NaN、数组、对象？(2020.01.12).md>)
