@@ -27,7 +27,15 @@
 
 6. `2020-01-12`
 
-- typeof 系列题目
+- typeof 系列题目 <kbd>js</kbd>
   1. [typeof('abc')和 typeof 'abc'都是 string, 那么 typeof 是操作符还是函数？](<./js/typeof('abc')和typeof'abc'都是string，那么typeof是操作符还是函数？(2020.01.12).md>)
   2. [请解释下 NaN 表示什么呢？typeof NaN 结果是什么？](<./js/请解释下NaN表示什么呢？typeof(NaN)结果是什么？.md>)
   3. [实现一个类型判断函数，需要鉴别出基本类型、function、null、NaN、数组、对象？](<./js/实现一个类型判断函数，需要鉴别出基本类型、function、null、NaN、数组、对象？(2020.01.12).md>)
+
+7. `2020-01-13`
+
+- [axios 是什么？怎样使用它？怎么解决跨域的问题](<./vue/axios/axios是什么？怎样使用它？怎么解决跨域的问题(2020.01.13).md>) <kbd>axios</kbd>
+- [几道 js 运算题](<./js/几道js运算题(2020.01.13).md>) <kbd>js</kbd>
+  1. 分析`('b' + 'a' + +'a' + 'a').toLowerCase()`返回的结果？
+  2. 请分析`!+[]+!![]+!![]+!![]+!![]+!![]`的结果
+  3. 解释下为什么`{} + [] === 0` 为 `true`？
