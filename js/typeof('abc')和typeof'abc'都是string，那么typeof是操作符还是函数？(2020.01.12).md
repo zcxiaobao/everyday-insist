@@ -9,5 +9,5 @@
      > 括号的作用是进行分组而非函数的调用。—— 《javascript 高级程序设计》
   ```js
   // 举个例子
-  typeof func; // is equal to typeof func
+  typeof (((func))); // is equal to typeof func
   ```
