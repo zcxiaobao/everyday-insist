@@ -53,3 +53,8 @@
 - [请写出几种匿名自执行的写法(至少三种)](<./js/请写出几种匿名自执行的写法(至少三种).md>) <kbd>js</kbd>
 - [0.1+0.2、0.1+0.3 和 0.1X0.2 分别等于多少？并解释下为什么？](<./js/0.1+0.2、0.1+0.3和0.1X0.2分别等于多少？并解释下为什么？(2020.01.15).md>) <kbd>js</kbd>
 - [请你解释一个为什么 10.toFixed(10)会报错？](<./js/请你解释一个为什么10.toFixed(10)会报错？(2020.01.15).md>) <kbd>js</kbd>
+
+10 .`2020.01.16`
+
+- [举例说明 atob 和 btoa 的用法](<./js/举例说明atob和btoa的用法(2020.01.16).md>) <kbd>js</kbd>
+- [分析比较 opacity：0、visibility：hidden、display：none 三者的优劣和适用场景](<./css/分析比较opacity：0、visibility：hidden、display：none三者的优劣和适用场景(2020.01.16).md>) <kbd>css</kbd>
