@@ -58,3 +58,13 @@
 
 - [举例说明 atob 和 btoa 的用法](<./js/举例说明atob和btoa的用法(2020.01.16).md>) <kbd>js</kbd>
 - [分析比较 opacity：0、visibility：hidden、display：none 三者的优劣和适用场景](<./css/分析比较opacity：0、visibility：hidden、display：none三者的优劣和适用场景(2020.01.16).md>) <kbd>css</kbd>
+
+11. `2020.01.17`
+
+- 年会嗨大了，忘记，虔诚认错
+
+12. `2020.01.18`
+
+- [let、var、const 区别](<./js/let、var、const区别(2020.01.18).md>) <kbd>js</kbd>
+- [为什么 let、const 声明的变量不在 window 上](<./js/为什么let、const声明的变量不在window上(2020.01.18).md>) <kbd>js</kbd>
+- [let、const 执行机制分析](<./js/let、const执行机制分析(2020.01.18).md>) <kbd>js</kbd>
