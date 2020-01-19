@@ -68,3 +68,7 @@
 - [let、var、const 区别](<./js/let、var、const区别(2020.01.18).md>) <kbd>js</kbd>
 - [为什么 let、const 声明的变量不在 window 上](<./js/为什么let、const声明的变量不在window上(2020.01.18).md>) <kbd>js</kbd>
 - [let、const 执行机制分析](<./js/let、const执行机制分析(2020.01.18).md>) <kbd>js</kbd>
+
+13. `2020.01.19`
+
+- [分别写出数组的交集、并集、差集、补集这四个方法](<./js/分别写出数组的交集、并集、差集、补集这四个方法(2020.01.19).md>) <kbd>js</kbd>
