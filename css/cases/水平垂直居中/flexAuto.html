@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>flex + margin: auto</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .center-wrapper {
+        width: 500px;
+        height: 500px;
+        background-color: #000;
+        display: flex;
+      }
+      .center-item {
+        width: 100px;
+        height: 100px;
+        background-color: #f00;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-wrapper">
+      <div class="center-item">A</div>
+    </div>
+  </body>
+</html>
