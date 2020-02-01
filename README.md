@@ -96,25 +96,27 @@
 - [掌握盒子水平垂直居中的几大方案](<./css/掌握盒子水平垂直居中的几大方案(2020.01.30).md>) <kbd>css</kbd>
 
 18. `2020.02.01`
-- [一道关于面向对象面试题所引发的血案(阿里)](./js/一道关于面向对象面试题所引发的血案(阿里)(2020.02.01).md) <kbd>js</kbd>
+
+- [一道关于面向对象面试题所引发的血案(阿里)](<./js/一道关于面向对象面试题所引发的血案(阿里)(2020.02.01).md>) <kbd>js</kbd>
+
 ```js
 function Foo() {
-    getName = function () {
-        console.log(1);
-    };
-    return this;
+  getName = function() {
+    console.log(1);
+  };
+  return this;
 }
-Foo.getName = function () {
-    console.log(2);
+Foo.getName = function() {
+  console.log(2);
 };
-Foo.prototype.getName = function () {
-    console.log(3);
+Foo.prototype.getName = function() {
+  console.log(3);
 };
-var getName = function () {
-    console.log(4);
+var getName = function() {
+  console.log(4);
 };
 function getName() {
-    console.log(5);
+  console.log(5);
 }
 Foo.getName();
 getName();
