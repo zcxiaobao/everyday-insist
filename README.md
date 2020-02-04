@@ -126,5 +126,11 @@ new Foo.getName();
 new Foo().getName();
 new new Foo().getName();
 ```
+
 19. `2020.02.02`
-- [一道面试题让你彻底掌握JS中的EventLoop(头条)](./js/一道面试题让你彻底掌握JS中的EventLoop(头条)(2020.02.02).md) <kbd>js</kbd>
+
+- [一道面试题让你彻底掌握 JS 中的 EventLoop(头条)](<./js/一道面试题让你彻底掌握JS中的EventLoop(头条)(2020.02.02).md>) <kbd>js</kbd>
+
+20. `2020.02.03`
+
+- [不考虑其它因素，下面哪种的渲染性能比较高？](<./css/不考虑其它因素，下面哪种的渲染性能比较高？(2020.02.03).md>) <kbd>css</kbd>
