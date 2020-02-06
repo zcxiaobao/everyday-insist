@@ -138,5 +138,10 @@ new new Foo().getName();
 21. `2020.02.04`
 
 - [你知道 vue 中 key 的原理吗？说说你对它的理解](<./vue/你知道vue中key的原理吗？说说你对它的理解(2020.02.04).md>) <kbd>vue</kbd>
-- [怎么解决vue打包后静态资源图片失效的问题？](<./vue/怎么解决vue打包后静态资源图片失效的问题？(2020.02.01).md>) <kbd>vue</kbd>
-- [怎么解决vue动态设置img的src不生效的问题？](<./vue/怎么解决vue动态设置img的src不生效的问题？(2020.02.04).md>) <kbd>vue</kbd>
+- [怎么解决 vue 打包后静态资源图片失效的问题？](<./vue/怎么解决vue打包后静态资源图片失效的问题？(2020.02.01).md>) <kbd>vue</kbd>
+- [怎么解决 vue 动态设置 img 的 src 不生效的问题？](<./vue/怎么解决vue动态设置img的src不生效的问题？(2020.02.04).md>) <kbd>vue</kbd>
+
+22. `2020.02.05`
+
+- [你有使用过 babel-polyfill 模块吗？主要是用来做什么的？](<./vue/你有使用过babel-polyfill模块吗？主要是用来做什么的？(2020.02.05).md>) <kbd>vue</kbd>
+- [Vue.observable 你有了解过吗？说说看](<./vue/Vue.observable你有了解过吗？说说看(2020.02.05).md>) <kbd>vue</kbd>
