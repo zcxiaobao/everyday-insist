@@ -145,3 +145,8 @@ new new Foo().getName();
 
 - [你有使用过 babel-polyfill 模块吗？主要是用来做什么的？](<./vue/你有使用过babel-polyfill模块吗？主要是用来做什么的？(2020.02.05).md>) <kbd>vue</kbd>
 - [Vue.observable 你有了解过吗？说说看](<./vue/Vue.observable你有了解过吗？说说看(2020.02.05).md>) <kbd>vue</kbd>
+
+23. `2020.02.06`
+
+- [在 vue 事件中传入\$event，使用 e.target 和 e.currentTarget 有什么区别？](<./vue/在vue事件中传入$event，使用e.target和e.currentTarget有什么区别？(2020.02.06).md>)
+- [怎么访问到子组件的实例或者子元素？](<./vue/怎么访问到子组件的实例或者子元素？(2020.02.06).md>)
