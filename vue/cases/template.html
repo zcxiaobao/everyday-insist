@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>template</title>
+</head>
+<body>
+  <template id="tmpl">
+    <div class="title">template context</div>
+  </template>
+</body>
+<script>
+
+  const tmpl = document.getElementById('tmpl')
+  const content = tmpl.content
+  const title = content.querySelector('.title')
+  console.log(tmpl)
+  console.log(content)
+  console.log(title)
+</script>
+</html>
