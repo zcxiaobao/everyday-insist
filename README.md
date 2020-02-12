@@ -152,4 +152,5 @@ new new Foo().getName();
 - [怎么访问到子组件的实例或者子元素？](<./vue/怎么访问到子组件的实例或者子元素？(2020.02.06).md>) <kbd>vue</kbd>
 
 23. `2020.02.07`
-- [template标签有什么用？](./vue/template标签有什么用？(2020.02.07).md) <kbd>vue</kbd>
+
+- [template 标签有什么用？](<./vue/template标签有什么用？(2020.02.07).md>) <kbd>vue</kbd>
