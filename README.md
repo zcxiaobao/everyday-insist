@@ -148,5 +148,8 @@ new new Foo().getName();
 
 23. `2020.02.06`
 
-- [在 vue 事件中传入\$event，使用 e.target 和 e.currentTarget 有什么区别？](<./vue/在vue事件中传入$event，使用e.target和e.currentTarget有什么区别？(2020.02.06).md>)
-- [怎么访问到子组件的实例或者子元素？](<./vue/怎么访问到子组件的实例或者子元素？(2020.02.06).md>)
+- [在 vue 事件中传入\$event，使用 e.target 和 e.currentTarget 有什么区别？](<./vue/在vue事件中传入$event，使用e.target和e.currentTarget有什么区别？(2020.02.06).md>) <kbd>vue</kbd>
+- [怎么访问到子组件的实例或者子元素？](<./vue/怎么访问到子组件的实例或者子元素？(2020.02.06).md>) <kbd>vue</kbd>
+
+23. `2020.02.07`
+- [template标签有什么用？](./vue/template标签有什么用？(2020.02.07).md) <kbd>vue</kbd>
