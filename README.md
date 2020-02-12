@@ -154,3 +154,9 @@ new new Foo().getName();
 23. `2020.02.07`
 
 - [template 标签有什么用？](<./vue/template标签有什么用？(2020.02.07).md>) <kbd>vue</kbd>
+
+24. `2020.02.08`
+
+- [vue-router 怎么重定向页面？](<./vue/vue-router怎么重定向页面？(2020.02.08).md>) <kbd>vue</kbd>
+- [vue-router 怎么配置 404 页面？](<./vue/vue-router怎么重定向页面？(2020.02.08).md>) <kbd>vue</kbd>
+- [\$nextTick 有什么作用？](<./vue/$nextTick有什么作用？(2020.02.08).md>) <kbd>vue</kbd>
