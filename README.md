@@ -160,3 +160,25 @@ new new Foo().getName();
 - [vue-router 怎么重定向页面？](<./vue/vue-router怎么重定向页面？(2020.02.08).md>) <kbd>vue</kbd>
 - [vue-router 怎么配置 404 页面？](<./vue/vue-router怎么重定向页面？(2020.02.08).md>) <kbd>vue</kbd>
 - [\$nextTick 有什么作用？](<./vue/$nextTick有什么作用？(2020.02.08).md>) <kbd>vue</kbd>
+
+25. `2020.02.09`
+
+- [在子组件中怎么访问到父组件的实例？](<./vue/在子组件中怎么访问到父组件的实例？(2020.02.09).md>) <kbd>vue</kbd>
+- [扩展计算题展题.md](<./js/扩展题，请写出如下代码的打印结果(2020.02.09).md>) <kbd>js</kbd>
+  ```js
+  // 问题一：
+  var name = "Tom";
+  (function() {
+    if (typeof name == "undefined") {
+      name = "Jack";
+      console.log("Goodbye " + name);
+    } else {
+      console.log("Hello " + name);
+    }
+  })();
+  // 问题二：
+  1 + "1" 
+  2 * "2" 
+  [1, 2] + [2, 1] 
+  "a" + + "b"     
+  ```
