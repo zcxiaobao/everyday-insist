@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试Split第二个参数</title>
+</head>
+<body>
+  <script>
+    let str = '1,2,3,4,5,6'
+    console.log(str.split(',', 3)) // ['1', '2', '3']
+    console.log(str.split(',', 5)) // ['1', '2', '3', '4', '5']
+    console.log(str.split())       // ["1,2,3,4,5,6"]
+  </script>
+</body>
+</html>
