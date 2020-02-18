@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试valueOf 和 get</title>
+</head>
+<body>
+  <script>
+    // 测试 ==
+    const a = {
+      value: 0,
+      valueOf() {
+        return ++this.value;
+      }
+    };
+    console.log((a == 1 && a == 2 && a == 3) === true)
+    // 测试 === 
+    const b = {
+      value: 0,
+      valueOf() {
+        return ++this.value;
+      }
+    };
+    console.log((b === 1 && b === 2 && b === 3) === true)
+  
+    //#region get
+    // 测试 ==
+    let val = 0;
+    Object.defineProperty(window, "c", {
+      get() {
+        return ++val;
+      }
+    });
+    console.log((c == 1 && c == 2 && c == 3) === true)
+    
+    // 测试 === 
+    let val2 = 0;
+    Object.defineProperty(window, "d", {
+      get() {
+        return ++val2;
+      }
+    });
+    console.log((d === 1 && d === 2 && d === 3) === true)
+    //#endregion
+  </script>
+</body>
+</html>
