@@ -2,6 +2,13 @@
 ## 21秋招最新面试题
 ### 字节篇
 1. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+2. [this指向](21interview/deepJS/this.md)
+3. [程序的输出结果是](21interview/program/this1.md)
+4. [script标签的defer和async属性有什么区别](21interview/deepJS/defer%20async.md)
+5. [如何实现数组扁平化](21interview/imitate/flat.md)
+6. [如何判断数组](21interview/baseJS/isArray.md)
+7. [instanceof原理并模拟实现](21interview/baseJS/instanceof.md)
+8. 
 #### 面试题目
 
 1. `2020-01-07`
