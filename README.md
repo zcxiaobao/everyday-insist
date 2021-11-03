@@ -8,7 +8,30 @@
 5. [如何实现数组扁平化](21interview/imitate/flat.md)
 6. [如何判断数组](21interview/baseJS/isArray.md)
 7. [instanceof原理并模拟实现](21interview/baseJS/instanceof.md)
-8. 
+8. [介绍一下symbol](21interview/ES6/symbol.md)
+9. [map与weakMap的区别](21interview/ES6/map%20weakMap.md)
+10. [0.1+0.2、0.1+0.3 和 0.1X0.2 分别等于多少？并解释下为什么？](<./js/0.1+0.2、0.1+0.3和0.1X0.2分别等于多少？并解释下为什么？(2020.01.15).md>) <kbd>js</kbd>
+11. [number能表示的整数的最大范围](21interview/baseJS/number.md)
+12. [debounce](21interview/imitate/debounce.md)
+13. [throttle](21interview/imitate/throttle.md)
+14. [DOM事件流](21interview/DOM/flowEvent.md)
+15. [数组去重](21interview/imitate/uniqueArr.md)
+16. [实现promise.all](21interview/deepJS/promiseAll.md)
+17. [原型与原型链](21interview/deepJS/prototype.md)
+18. [继承](21interview/deepJS/inherit.md)
+19. [实现promise.allSettled](21interview/imitate/promiseSettled.md)
+20. [你了解ES6的bigInt吗](21interview/ES6/bigint.md)
+21. [事件循环机制](21interview/deepJS/eventLoop.md)
+22. [事件冒泡、事件捕获](./21interview/DOM/event.md)
+23. [事件委托](21interview/DOM/eventAgent.md)
+24. [使用new调用函数，而这个函数中有return，那它return出来的是什么](21interview/deepJS/newReturn.md)
+25. [闭包](https://juejin.cn/post/6844903974378668039#heading-23)
+26. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+27. [模拟实现indexOf](21interview/imitate/indexOf.md)
+28. [柯里化](https://juejin.cn/post/6844903490771222542)
+29. [async与await原理](https://juejin.cn/post/6844904096525189128)
+30. [实现ajax](21interview/imitate/ajax.md)
+31. [实现apply]
 #### 面试题目
 
 1. `2020-01-07`
