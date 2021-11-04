@@ -72,6 +72,24 @@
 13. [Object的_proto_指向什么](21interview/deepJS/objectProAfuncPro.md)
 14. [Function的_proto_指向什么](21interview/deepJS/objectProAfuncPro.md)
 15. [promise和setTimeout分别是什么任务](21interview/deepJS/microMacroTasks.md)
+
+
+### 阿里
+1. [deepclone](https://juejin.cn/post/6844903986479251464)
+2. [把一个JSON对象的key从下划线形式（Pascal）转换到小驼峰形式（Camel）](21interview/baseJS/_tocamel.md)
+3. [proxy优缺点](https://juejin.cn/post/6844903601416978439)
+4. [map与weakMap的区别](21interview/ES6/map%20weakMap.md)
+5. [垃圾回收机制](https://juejin.cn/post/6981588276356317214)
+6. [原型与原型链](21interview/deepJS/prototype.md)
+7. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+8. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903625769091079) https://juejin.cn/post/6945319439772434469 https://juejin.cn/post/6844903625609707534#heading-9
+9. [ES6 展开运算符]
+10. [set与weakSet区别](21interview/ES6/setWeakset.md)
+11. [实现promise.all](21interview/imitate/promiseAll.md)
+12. [实现promise.race](21interview/imitate/promiseRace.md)
+13. [generator原理]
+14. [async与await原理](https://juejin.cn/post/6844904096525189128)
+15. [实现forEach](21interview/imitate/forEach.md)
 ### 面试题目
 
 1. `2020-01-07`
