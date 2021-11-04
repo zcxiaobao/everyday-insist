@@ -25,14 +25,54 @@
 22. [事件冒泡、事件捕获](./21interview/DOM/event.md)
 23. [事件委托](21interview/DOM/eventAgent.md)
 24. [使用new调用函数，而这个函数中有return，那它return出来的是什么](21interview/deepJS/newReturn.md)
-25. [闭包](https://juejin.cn/post/6844903974378668039#heading-23)
+25. [闭包](https://juejin.cn/post/6844903974378668039)
 26. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
 27. [模拟实现indexOf](21interview/imitate/indexOf.md)
 28. [柯里化](https://juejin.cn/post/6844903490771222542)
 29. [async与await原理](https://juejin.cn/post/6844904096525189128)
 30. [实现ajax](21interview/imitate/ajax.md)
-31. [实现apply]
-#### 面试题目
+31. [实现apply](21interview/imitate/apply.md)
+32. [defienProperty与proxy区别](https://juejin.cn/post/6844903710410162183)
+33. [let const var区别](21interview/ES6/letconstvar.md)
+
+### 百度
+1. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903607968481287)
+2. [set集合，实现取数和存数]
+3. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+4. [set/map区别及使用](https://juejin.cn/post/6844903855302377486)
+5. [map与object键值key遍历顺序](21interview/deepJS/keyiterator.md)
+6. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+7. [this指向](21interview/deepJS/this.md)
+8. [数组去重](21interview/imitate/uniqueArr.md)
+9. [手撕数组排序](https://juejin.cn/post/6844903986479251464#heading-33)
+10. [同步任务和异步任务区别](21interview/deepJS/asyncTask.md)
+11. [事件循环机制](21interview/deepJS/eventLoop.md)
+12. [实现promise.all](21interview/imitate/promiseAll.md)
+13. [实现promise.race](21interview/imitate/promiseRace.md)
+14. [Promise.all(), .race(), .allSettled()对比](https://juejin.cn/post/6844903912592375821)
+15. [debounce](21interview/imitate/debounce.md)
+16. [闭包](https://juejin.cn/post/6844903974378668039)
+17. [数组高阶方法](https://juejin.cn/post/7024305368595431454)
+18. [千分位分隔符](21interview/imitate/thousandSplit.md)
+19. [Promise、Generator、Async三者的区别](https://juejin.cn/post/6844904159582355470)
+
+### 有赞
+1. [async与await原理](https://juejin.cn/post/6844904096525189128)
+2. [map与weakMap的区别](21interview/ES6/map%20weakMap.md)
+3. [map与object区别](21interview/ES6/mapObject.md)
+4. [dom 查找的方法]
+5. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903625769091079) https://juejin.cn/post/6945319439772434469 https://juejin.cn/post/6844903625609707534#heading-9
+6. [JavaScript的数据类型](21interview/baseJS/datatype.md)
+7. [2.toFixed()](21interview/baseJS/floatpoint.md)
+8. [原型与原型链](21interview/deepJS/prototype.md)
+9. [继承](21interview/deepJS/inherit.md)
+10. [事件循环机制](21interview/deepJS/eventLoop.md)
+11. [查询某个对象是否有某个属性的方法](21interview/baseJS/testifyObjProp.md)
+12. [this指向](21interview/deepJS/this.md)
+13. [Object的_proto_指向什么](21interview/deepJS/objectProAfuncPro.md)
+14. [Function的_proto_指向什么](21interview/deepJS/objectProAfuncPro.md)
+15. [promise和setTimeout分别是什么任务](21interview/deepJS/microMacroTasks.md)
+### 面试题目
 
 1. `2020-01-07`
 
