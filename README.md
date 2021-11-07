@@ -24,7 +24,7 @@
 21. [事件循环机制](21interview/deepJS/eventLoop.md)
 22. [事件冒泡、事件捕获](./21interview/DOM/event.md)
 23. [事件委托](21interview/DOM/eventAgent.md)
-24. [使用new调用函数，而这个函数中有return，那它return出来的是什么](21interview/deepJS/newReturn.md)
+24. [使用new调用函数，而这个函数中有返回值，那它return出来的是什么](21interview/deepJS/newReturn.md)
 25. [闭包](https://juejin.cn/post/6844903974378668039)
 26. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
 27. [模拟实现indexOf](21interview/imitate/indexOf.md)
@@ -232,7 +232,62 @@
 
 ### 腾讯
 1. [给你两个日期, 计算两个日期中间差了多少天]
-2. 
+2. [数组去重](21interview/imitate/uniqueArr.md)
+3. [for in 的缺点]
+4. [for of 能遍历对象吗]
+5. [ for in 与 Object.keys区别]
+6. [ for in 与 for of区别]
+7. [JavaScript的数据类型](21interview/baseJS/datatype.md)
+8. [原型与原型链](21interview/deepJS/prototype.md)
+9. [继承](21interview/deepJS/inherit.md)
+10. [this指向](21interview/deepJS/this.md)
+11. [事件循环机制](21interview/deepJS/eventLoop.md)
+12. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+13. [Promise.all(), .race(), .allSettled()对比](https://juejin.cn/post/6844903912592375821)
+14. [async与await原理](https://juejin.cn/post/6844904096525189128)
+15. [call、apply、bind的区别](21interview/deepJS/callApplyBind.md)
+16. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+17. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903607968481287)
+
+### 网易
+1. [原型与原型链](21interview/deepJS/prototype.md)
+2. [通过 new 构造函数创建实例对象，在构造函数上声明一个方法，跟直接给实例对象声明一个方法有什么区别吗？^]
+3. [call、apply、bind的区别](21interview/deepJS/callApplyBind.md)
+4. [requestAnimationFrame](https://juejin.cn/post/6991297852462858277)
+5. [在 timer = setInterval(() => {}, delay) 中，这个 timer 打印出来是什么]
+6. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903607968481287)
+7. [预编译](21interview/deepJS/precompiler.md)
+8. [debounce](21interview/imitate/debounce.md)
+9. [throttle](21interview/imitate/throttle.md)
+10. [构造函数与函数的区别](https://juejin.cn/post/6996583771952644110)
+11. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+12. [数组去重](21interview/imitate/uniqueArr.md)
+13. [继承](21interview/deepJS/inherit.md)
+14. [事件委托](21interview/DOM/eventAgent.md)
+15. [JavaScript的数据类型](21interview/baseJS/datatype.md)
+16. [setTimeout的实现原理]
+17. [实现promise.all](21interview/deepJS/promiseAll.md)
+18. [== 的隐式类型转换](21interview/baseJS/==隐式类型转换.md)
+19. [柯里化](https://juejin.cn/post/6844903490771222542)
+20. [new A().log(1).wait(2).wait(2).log(1).wait(2)]()
+21. [模拟实现new](21interview/imitate/new.md)
+
+### 小红书
+1. [原型与原型链](21interview/deepJS/prototype.md)
+2. [事件循环机制](21interview/deepJS/eventLoop.md)
+3. [set/map区别及使用](https://juejin.cn/post/6844903855302377486)
+4. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+5. [async与await原理](https://juejin.cn/post/6844904096525189128)
+6. [debounce](21interview/imitate/debounce.md)
+7. [throttle](21interview/imitate/throttle.md)
+8. [typeof、 instanceof区别](21interview/baseJS/typeofInstanceof.md)
+9. [模拟实现instanceof](21interview/imitate/instanceof.md)
+10. [typeof function 会显示什么]
+11. [ ["1","2","3"].map(parseInt) 结果是什么，并解释原因]
+12.  如何让11返回[1,2,3] 用你能想到的最简单的方案(要求使用[].map())
+13. [闭包](https://juejin.cn/post/6844903974378668039)
+
+### 转转
 ### 面试题目
 
 1. `2020-01-07`
