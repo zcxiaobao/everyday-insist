@@ -37,7 +37,7 @@
 
 ### 百度
 1. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903607968481287)
-2. [set集合，实现取数和存数]
+2. [set集合，实现取数和存数](21interview/imitate/set.md)
 3. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
 4. [set/map区别及使用](https://juejin.cn/post/6844903855302377486)
 5. [map与object键值key遍历顺序](21interview/deepJS/keyiterator.md)
@@ -90,6 +90,149 @@
 13. [generator原理]
 14. [async与await原理](https://juejin.cn/post/6844904096525189128)
 15. [实现forEach](21interview/imitate/forEach.md)
+16. [setTimeout与setInterval区别，两者那个更准](https://juejin.cn/post/6844904022051127310)
+17. [throttle](21interview/imitate/throttle.md)
+18. [作用域与作用域链](https://blog.csdn.net/qq_32036091/article/details/120441982)
+19. [如何串行执行多个Promise](https://juejin.cn/post/6844903801296519182)
+
+### 滴滴
+1. [模拟实现jsonp](21interview/imitate/jsonp.md)
+2. [介绍一下symbol](21interview/ES6/symbol.md)
+3. [继承](21interview/deepJS/inherit.md)
+4. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+5. [Object.asign()]
+6. [数组去重](21interview/imitate/uniqueArr.md)
+7. [模拟实现new](21interview/imitate/new.md)
+8. [闭包](https://juejin.cn/post/6844903974378668039)
+9. [let const var区别](21interview/ES6/letconstvar.md)
+10. [实现promise.all](21interview/deepJS/promiseAll.md)
+11. [作用域与作用域链](https://blog.csdn.net/qq_32036091/article/details/120441982)
+12. [垃圾回收机制](https://juejin.cn/post/6981588276356317214)
+13. [原型与原型链](21interview/deepJS/prototype.md)
+14. [object.defineProperty](https://juejin.cn/post/6844903506743148552)
+
+### 京东
+1. [let const var区别](21interview/ES6/letconstvar.md)
+2. [模拟实现ajax](21interview/imitate/ajax.md)
+3. [debounce](21interview/imitate/debounce.md)
+4. [throttle](21interview/imitate/throttle.md)
+5. [实现promise.all](21interview/imitate/promiseAll.md)
+6. [原型与原型链](21interview/deepJS/prototype.md)
+7. [预编译](21interview/deepJS/precompiler.md)
+8. [数组去重](21interview/imitate/uniqueArr.md)
+9. [闭包](https://juejin.cn/post/6844903974378668039)
+10. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+11. [undefined和null]
+12. [事件循环机制](21interview/deepJS/eventLoop.md)
+13. [async与await原理](https://juejin.cn/post/6844904096525189128)
+14. [for..in  for...of区别]
+15. [set去重原理]
+
+### B站
+1. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903625769091079) https://juejin.cn/post/6945319439772434469 https://juejin.cn/post/6844903625609707534#heading-9
+2. [script标签的defer和async属性有什么区别](21interview/deepJS/defer%20async.md)
+3. [如何在使用async & await 时优雅的处理异常](https://juejin.cn/post/6844903998969872392)
+4. [闭包](https://juejin.cn/post/6844903974378668039)
+5. [事件循环机制](21interview/deepJS/eventLoop.md)
+6. [预编译](21interview/deepJS/precompiler.md)
+7. [模拟实现 promise.finally](21interview/imitate/promiseFinally.md)
+8. [模拟实现 promise.all](21interview/imitate/promiseAll.md)
+9. [数组去重](21interview/imitate/uniqueArr.md)
+10. [splice和slice你能说说有啥用和区别吗](21interview/baseJS/spliceSlice.md)
+11. [模拟实现new](21interview/imitate/new.md)
+12. [使用new调用函数，而这个函数中有return，那它return出来的是什么](21interview/deepJS/newReturn.md)
+13. [object.create]
+14. [手写一个判断类型方法]
+15. [typeof]
+16. [箭头函数的this辨析]
+17. [如何实现数组扁平化](21interview/imitate/flat.md)
+
+### 富途
+1. [判断变量类型的几种方法]
+2. [遍历对象的方法，区别]
+3. [作用域与作用域链](https://blog.csdn.net/qq_32036091/article/details/120441982)
+4. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+5. [垃圾回收机制](https://juejin.cn/post/6981588276356317214)
+6. [同步任务和异步任务区别](21interview/deepJS/asyncTask.md)
+7. [==和===区别](21interview/baseJS/==和===区别.md)
+8. [let const var区别](21interview/ES6/letconstvar.md)
+9. [script标签的defer和async属性有什么区别](21interview/deepJS/defer%20async.md)
+10. [defienProperty与proxy区别](https://juejin.cn/post/6844903710410162183)
+11. [call、apply、bind的区别](21interview/deepJS/callApplyBind.md)
+12. [模拟实现new](21interview/imitate/new.md)
+13. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+14. [async与await原理](https://juejin.cn/post/6844904096525189128)
+
+### 快手
+1. [this指向](21interview/deepJS/this.md)
+2. [原型链继承和class区别](https://juejin.cn/post/6854573210063929352)
+3. [闭包](https://juejin.cn/post/6844903974378668039)
+4. [事件循环机制](21interview/deepJS/eventLoop.md)
+5. [原型与原型链](21interview/deepJS/prototype.md)
+6. [实现promise.all](21interview/imitate/promiseAll.md)
+7. [柯里化](https://juejin.cn/post/6844903490771222542)
+8. [模拟实现new](21interview/imitate/new.md)
+9. [模拟实现jsonp](21interview/imitate/jsonp.md)
+10. [如何实现数组扁平化](21interview/imitate/flat.md)
+11. [把一个JSON对象的key从下划线形式（Pascal）转换到小驼峰形式（Camel）](21interview/baseJS/_tocamel.md)
+12. [模拟实现reduce](21interview/imitate/reduce.md)
+13. [debounce](21interview/imitate/debounce.md)
+14. [throttle](21interview/imitate/throttle.md)
+15. [let const var区别](21interview/ES6/letconstvar.md)
+16. [模拟实现new](21interview/imitate/new.md)
+
+### 美团
+1. [this指向](21interview/deepJS/this.md)
+2. [事件循环机制](21interview/deepJS/eventLoop.md)
+3. [let const var区别](21interview/ES6/letconstvar.md)
+4. [== 的隐式类型转换](21interview/baseJS/==隐式类型转换.md)
+5. [闭包](https://juejin.cn/post/6844903974378668039)
+6. [数据类型判断方法](21interview/baseJS/datatypeJudge.md)
+7. [模拟实现new](21interview/imitate/new.md)
+8. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+9. [构造函数，实例对象和原型对象关系](21interview/deepJS/funcProtoCon.md)
+10. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+11. [模拟实现promise.all](21interview/imitate/promiseAll.md)
+12. [proxy可以监听嵌套对象的变化吗](https://www.freesion.com/article/3435500334/)
+13. [map与weakMap的区别](21interview/ES6/map%20weakMap.md)
+14. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+15. [原型与原型链](21interview/deepJS/prototype.md)
+16. [聊聊promise的值穿透和异常穿透](https://juejin.cn/post/7002591353263620127)
+17. [async与await原理](https://juejin.cn/post/6844904096525189128)
+18. [js文件为什么要放在文件底部](https://segmentfault.com/a/1190000004292479)
+19. [数组去重](21interview/imitate/uniqueArr.md)
+20. [模拟实现ES6 class](https://zhuanlan.zhihu.com/p/56599517)
+21. [DOM事件流](21interview/DOM/flowEvent.md)
+22. [模拟实现set](21interview/imitate/set.md)
+23. [模拟实现map](21interview/imitate/map.md)
+24. [sleep函数]
+
+### 拼多多
+1. [模拟显现promiseRace](21interview/imitate/promiseRace.md)
+2. [继承](21interview/deepJS/inherit.md)
+3. [千分位分隔符](21interview/imitate/thousandSplit.md)
+4. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+5. [事件循环机制](21interview/deepJS/eventLoop.md)
+6. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
+7. [类数组与数组区别，为什么要设置类数组](21interview/baseJS/arrayLike.md)
+8. [类数组如何转化为数组](21interview/baseJS/arrayLikeToArr.md)
+9. [deepclone](https://juejin.cn/post/6844903986479251464#heading-56)
+10. [debounce](21interview/imitate/debounce.md)
+11. [throttle](21interview/imitate/throttle.md)
+12. [模拟实现ajax](21interview/imitate/ajax.md)
+13. [数组去重](21interview/imitate/uniqueArr.md)
+14. [闭包](https://juejin.cn/post/6844903974378668039)
+15. [this指向](21interview/deepJS/this.md)
+16. [set/map区别及使用](https://juejin.cn/post/6844903855302377486)
+17. [如何实现数组扁平化](21interview/imitate/flat.md)
+18. [事件冒泡、事件捕获](./21interview/DOM/event.md)
+19. (*)[基于promise实现超时重新请求](https://blog.csdn.net/qq_43624878/article/details/115265504)
+20. [怎么判断null 和Object]
+21. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
+
+### 腾讯
+1. [给你两个日期, 计算两个日期中间差了多少天]
+2. 
 ### 面试题目
 
 1. `2020-01-07`
