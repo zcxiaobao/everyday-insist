@@ -309,6 +309,9 @@
 19. [模拟实现any](21interview/imitate/promiseAny.md)
 20. [模拟实现resolve和reject](21interview/imitate/promiseResolveReject.md)
 21. [实现object.assign](21interview/imitate/assign.md)
+22. [实现偏函数](https://juejin.cn/post/6946022649768181774#heading-17)
+23. [call](21interview/imitate/call.md)
+24. [bind](21interview/imitate/bind.md)
 ### 面试题目
 
 1. `2020-01-07`
