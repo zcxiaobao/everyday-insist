@@ -125,7 +125,7 @@
 11. [undefined和null]
 12. [事件循环机制](21interview/deepJS/eventLoop.md)
 13. [async与await原理](https://juejin.cn/post/6844904096525189128)
-14. [for..in  for...of区别]
+14. [for..in  for...of区别]()
 15. [set去重原理]
 
 ### B站
@@ -306,6 +306,9 @@
 16. [for in 和 for of 的区别](https://juejin.cn/post/6916058482231754765)
 17. [for of可以遍历对象吗](21interview/ES6/forOf.md)
 18. [实现object.create](21interview/imitate/create.md)
+19. [模拟实现any](21interview/imitate/promiseAny.md)
+20. [模拟实现resolve和reject](21interview/imitate/promiseResolveReject.md)
+21. [实现object.assign](21interview/imitate/assign.md)
 ### 面试题目
 
 1. `2020-01-07`
