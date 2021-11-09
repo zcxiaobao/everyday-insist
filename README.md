@@ -141,15 +141,14 @@
 10. [splice和slice你能说说有啥用和区别吗](21interview/baseJS/spliceSlice.md)
 11. [模拟实现new](21interview/imitate/new.md)
 12. [使用new调用函数，而这个函数中有return，那它return出来的是什么](21interview/deepJS/newReturn.md)
-13. [object.create]
-14. [手写一个判断类型方法]
+13. [object.create](21interview/imitate/create.md)
+14. [手写一个判断类型方法](21interview/imitate/dataJudge.md)
 15. [typeof]
-16. [箭头函数的this辨析]
 17. [如何实现数组扁平化](21interview/imitate/flat.md)
 
 ### 富途
 1. [判断变量类型的几种方法]
-2. [遍历对象的方法，区别]
+2. [遍历对象的方法，区别](21interview/ES6/iteartorObj.md)
 3. [作用域与作用域链](https://blog.csdn.net/qq_32036091/article/details/120441982)
 4. [箭头函数与普通函数区别](21interview/ES6/arrowfunc.md)
 5. [垃圾回收机制](https://juejin.cn/post/6981588276356317214)
@@ -302,6 +301,11 @@
 11. [setTimeout、Promise、Async/Await 的区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/33)
 12. [sleep函数](21interview/imitate/sleep.md)
 13. [ a.b.c.d 和 a['b']['c']['d']，哪个性能更高？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/111)
+14. [遍历对象的方法](21interview/ES6/iteartorObj.md)
+15. [for in 与 Object.keys区别](21interview/ES6/iteartorObj.md)
+16. [for in 和 for of 的区别](https://juejin.cn/post/6916058482231754765)
+17. [for of可以遍历对象吗](21interview/ES6/forOf.md)
+18. [实现object.create](21interview/imitate/create.md)
 ### 面试题目
 
 1. `2020-01-07`
