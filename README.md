@@ -205,7 +205,7 @@
 21. [DOM事件流](21interview/DOM/flowEvent.md)
 22. [模拟实现set](21interview/imitate/set.md)
 23. [模拟实现map](21interview/imitate/map.md)
-24. [sleep函数]
+24. [sleep函数](21interview/imitate/sleep.md)
 
 ### 拼多多
 1. [模拟实现promiseRace](21interview/imitate/promiseRace.md)
@@ -286,7 +286,7 @@
 10. [typeof function 会显示什么]
 11. [`["1","2","3"].map(parseInt)` 结果是什么，并解释原因](21interview/baseJS/parseInt)
 12.  如何让11返回[1,2,3] 用你能想到的最简单的方案(要求使用[].map())
-13. [闭包](https://juejin.cn/post/6844903974378668039)
+13. [闭包](https://github.com/lgwebdream/FE-Interview/issues/17)
 
 ### 转转
 1. [实现数据类型判断函数](21interview/imitate/dataJudge.md)
@@ -296,7 +296,12 @@
 5. [new 操作符做了哪些事情](21interview/deepJS/newDo.md)
 6. [判断数据类型的方法](21interview/baseJS/dataJudge.md)
 7. [防抖与节流区别](21interview/deepJS/debounceThrottle.md)
-8. 
+8. [实现链式调用](21interview/imitate/chainFunc.md)
+9. [实现数组转树](https://github.com/lgwebdream/FE-Interview/issues/35)
+10. [使用proxy实现arr负数索引访问](21interview/imitate/proxyarr.md)
+11. [setTimeout、Promise、Async/Await 的区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/33)
+12. [sleep函数](21interview/imitate/sleep.md)
+13. [ a.b.c.d 和 a['b']['c']['d']，哪个性能更高？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/111)
 ### 面试题目
 
 1. `2020-01-07`
