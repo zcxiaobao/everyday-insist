@@ -208,7 +208,7 @@
 24. [sleep函数]
 
 ### 拼多多
-1. [模拟显现promiseRace](21interview/imitate/promiseRace.md)
+1. [模拟实现promiseRace](21interview/imitate/promiseRace.md)
 2. [继承](21interview/deepJS/inherit.md)
 3. [千分位分隔符](21interview/imitate/thousandSplit.md)
 4. [cookie, localStorage  sessionStorage区别](21interview/deepJS/cookie,%20localStorage%20%20sessionStorage区别.md)
@@ -254,7 +254,7 @@
 2. [通过 new 构造函数创建实例对象，在构造函数上声明一个方法，跟直接给实例对象声明一个方法有什么区别吗？^]
 3. [call、apply、bind的区别](21interview/deepJS/callApplyBind.md)
 4. [requestAnimationFrame](https://juejin.cn/post/6991297852462858277)
-5. [在 timer = setInterval(() => {}, delay) 中，这个 timer 打印出来是什么]
+5. [在 timer = setInterval(() => {}, delay) 中，这个 timer 打印出来是什么](21interview/BOM/setIntervalReturn.md)
 6. [什么是promise？实现一个简单的promise](https://juejin.cn/post/6844903607968481287)
 7. [预编译](21interview/deepJS/precompiler.md)
 8. [debounce](21interview/imitate/debounce.md)
@@ -271,6 +271,7 @@
 19. [柯里化](https://juejin.cn/post/6844903490771222542)
 20. [new A().log(1).wait(2).wait(2).log(1).wait(2)]()
 21. [模拟实现new](21interview/imitate/new.md)
+22. [实现发布订阅模式](21interview/imitate/eventEmitter.md)
 
 ### 小红书
 1. [原型与原型链](21interview/deepJS/prototype.md)
@@ -283,11 +284,19 @@
 8. [typeof、 instanceof区别](21interview/baseJS/typeofInstanceof.md)
 9. [模拟实现instanceof](21interview/imitate/instanceof.md)
 10. [typeof function 会显示什么]
-11. [ ["1","2","3"].map(parseInt) 结果是什么，并解释原因]
+11. [`["1","2","3"].map(parseInt)` 结果是什么，并解释原因](21interview/baseJS/parseInt)
 12.  如何让11返回[1,2,3] 用你能想到的最简单的方案(要求使用[].map())
 13. [闭包](https://juejin.cn/post/6844903974378668039)
 
 ### 转转
+1. [实现数据类型判断函数](21interview/imitate/dataJudge.md)
+2. [在 timer = setInterval(() => {}, delay) 中，这个 timer 打印出来是什么](21interview/BOM/setIntervalReturn.md)
+3. [null与undefined的区别](21interview/baseJS/nullUndefined.md)
+4. [typeof为什么对null错误的显示](21interview/baseJS/typeofNull.md)
+5. [new 操作符做了哪些事情](21interview/deepJS/newDo.md)
+6. [判断数据类型的方法](21interview/baseJS/dataJudge.md)
+7. [防抖与节流区别](21interview/deepJS/debounceThrottle.md)
+8. 
 ### 面试题目
 
 1. `2020-01-07`
